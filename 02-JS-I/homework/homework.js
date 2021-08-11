@@ -33,29 +33,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var sumas = x + y;
-  return sumas;
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valorc
   // Tu código:
-  var restar = x - y;
-  return restar;
+  return x - y
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multi = x * y;
-  return multi;
+  return x * y
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var divi = x / y;
-  return divi;
+  return x / y
 }
 
 function sonIguales(x, y) {
@@ -102,8 +98,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  resto = x % y;
-  return resto;
+  return x % y
 }
 
 function esPar(num) {
@@ -184,8 +179,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  nuevastr = str + '!';
-  return nuevastr;
+  return str + '!'
 }
 
 function combinarNombres(nombre, apellido) {
@@ -205,8 +199,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  areaRect = alto * ancho
-  return areaRect
+  return alto * ancho
 }
 
 
@@ -221,8 +214,8 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  areaTriang = (base * altura) / 2
-  return areaTriang
+  
+  return (base * altura) / 2
 }
 
 
